@@ -34,49 +34,14 @@ export default {
           return pages
       }
   },
+  props:{
+      iconList:Array
+  },
   data() {
     return {
       swiperOption: {
         pagination: ".swiper-pagination",
-      },
-      iconList:[{
-          id:'0001',
-          imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png',
-          desc:'无限疯狂'
-      },{
-          id:'0002',
-          imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png',
-          desc:'无限风光'
-      },{
-          id:'0003',
-          imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png',
-          desc:'无限风光'
-      },{
-          id:'0004',
-          imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png',
-          desc:'无限风光'
-      },{
-          id:'0005',
-          imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png',
-          desc:'无限风光'
-      },{
-          id:'0006',
-          imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png',
-          desc:'无限风光'
-      },{
-          id:'0007',
-          imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png',
-          desc:'无限风光'
-      },{
-          id:'0008',
-          imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png',
-          desc:'无限风光'
-      },{
-          id:'0008',
-          imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png',
-          desc:'无限风光'
-      },
-      ]
+      }
     };
   }
 };
