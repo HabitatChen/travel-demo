@@ -17,7 +17,7 @@ export default {
   data () {
       return {
         swiperOption: {
-        autoplay:true,
+        autoplay:3000,
         pagination: '.swiper-pagination',
         loop: true
       }
