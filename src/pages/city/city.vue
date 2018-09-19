@@ -41,7 +41,7 @@ export default {
     },
     methods: {
         getCityInfo(){
-            axios.get('/static/mock/city.json')
+            axios.get('https://github.com/HabitatChen/travel-demo/tree/master/static/mock/city.json')
                 .then(this.handleGetCityInfoSucc)
         },
         handleGetCityInfoSucc(res) {
