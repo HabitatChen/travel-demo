@@ -41,7 +41,7 @@ export default {
     },
     methods: {
         getCityInfo(){
-            axios.get('/travel-demo/dist/api/city.json')
+            axios.get('/static/mock/city.json')
                 .then(this.handleGetCityInfoSucc)
         },
         handleGetCityInfoSucc(res) {

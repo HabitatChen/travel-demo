@@ -11,12 +11,8 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: './',
     proxyTable: {
-      '/travel-demo/dist/api':{
-        target:'http://localhost:8080',
-        pathRewrite: {
-          '^/travel-demo/dist/api':'/static/mock'
-        }
-      }
+        
+      
     },
 
     // Various Dev Server settings
